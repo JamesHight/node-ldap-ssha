@@ -1,4 +1,4 @@
-import LdapSSHA from './lib/ldap-ssha.js';
+const LdapSSHA = require('./lib/ldap-ssha');
 
 
-export default new LdapSSHA();
+module.exports = new LdapSSHA();

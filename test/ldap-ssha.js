@@ -1,7 +1,7 @@
 /* global describe, before, it */
 
-import { expect } from 'chai';
-import ldapSsha from '../index.js';
+const { expect } = require('chai');
+const ldapSsha = require('../index');
 
 
 const testData = {
