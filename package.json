@@ -1,0 +1,28 @@
+{
+  "name": "ldap-ssha",
+  "version": "0.0.1",
+  "description": "LDAP SSHA hashing library.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./node_modules/.bin/mocha ./test",
+    "lint": "node ./node_modules/.bin/eslint index.js --ext .js lib/**"
+  },
+  "keywords": [],
+  "author": "James Hight",
+  "maintainers": [
+    {
+      "name": "jmerrick",
+      "email": "james@zavoo.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamesHight/node-ldap-ssha"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
